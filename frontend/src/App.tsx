@@ -21,7 +21,9 @@ function App() {
           <Route path="/chat" element={<Chat />} />
         )}
         <Route path="*" element={<NotFound />} />
+
       </Routes>
+      <Footer/>
     </main>
   );
 }
